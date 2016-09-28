@@ -14,15 +14,18 @@ main {
 h1 {
     background-color: #6CC598;
   padding: 10px;
-  color: #157D48;
+  color: #12635b;
   text-align: center;
   box-shadow: 1px 5px 10px 	#157D48;
+}
+
+article {
+  color: #12635b;
 }
 
 h2 {
   background-color: #6CC598;
   padding: 10px;
-  color: #157D48;
   text-align: center;
   box-shadow: 1px 3px 7px 	#157D48;
 }
@@ -36,8 +39,14 @@ li {
   font-size: 1.2em;
 }
 
+img {
+  float: left;
+  height: 140px;
+  margin-left: -20%;
+}
+
 .codeText {
   font-style: italic;
-  color: #157D48;
+  color: #191970;
   font-family: monospace;
 }

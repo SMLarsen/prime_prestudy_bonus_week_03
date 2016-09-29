@@ -1,52 +1,69 @@
 body {
-  background-color: 	#A0E0C0;
-  margin: 1% 10% 2% 10%;
+  background-image: url("images/ricepaper_v3_@2X.png");
+  background-repeat: repeat;
+  font-size: 1.2em;
 }
 
-header {
-  margin: 1% 10% 2% 10%;
+.navBar {
+    width: 80%;
+    height: 60px;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 1.9% 2% 0% 2%;
+    padding: 0;
+    background-color: #1da195;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    display:inline-block;
+    border: 3px solid #000;
+
 }
 
-main {
-  margin: 1% 10% 2% 10%;
+.logo {
+    top: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 55px;
+    height: 55px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+.navBar li a {
+    display: inline-block;
+    vertical-align: top;
+    color: #A0E0C0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+.navBar li {
+}
+
+ul li a:hover {
+    background-color: #111;
+    color: #A0E0C0;
+}
+
+.active {
+    background-color: #0e756c;
+    color: #68bfb7;
 }
 
 h1 {
-    background-color: #6CC598;
-  padding: 10px;
-  color: #12635b;
   text-align: center;
-  box-shadow: 1px 5px 10px 	#157D48;
 }
 
 article {
-  color: #12635b;
-}
-
-h2 {
-  background-color: #6CC598;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 1px 3px 7px 	#157D48;
-}
-p {
-  margin-left: 5%;
-  font-size: 1.2em;
-}
-
-li {
-  margin-left: 10%;
-  font-size: 1.2em;
-}
-
-img {
-  float: left;
-  height: 140px;
-  margin-left: -20%;
-}
-
-.codeText {
-  font-style: italic;
-  color: #191970;
-  font-family: monospace;
+  display: inline-block;
+  margin: 0 20% 0 20%;
+  width: 60%;
+  padding: 20px;
+  border: 2px solid #000;
 }

@@ -39,11 +39,24 @@ ol li {
   font-size: 1.2em;
 }
 
-img {
-  float: left;
-  height: 140px;
-  margin-left: -20%;
-  box-shadow: 1px 5px 10px 	#157D48;
+#prime {
+  position:absolute;
+  top:3%;
+  left: 11%;
+  height: 60px;
+}
+
+figure {
+  position:absolute;
+  top:2%;
+  right: 7%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
+#home {
+  height: 40px;
 }
 
 .codeText {

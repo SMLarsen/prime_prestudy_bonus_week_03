@@ -3,12 +3,27 @@ body {
   font-family: sans-serif;
 }
 
-img {
+#prime {
   float: left;
   height: 40px;
   margin-top: 10px;
   margin-left: 10px;
 }
+
+#home {
+  position:absolute;
+  top:-1px;
+  right: -20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: .8em;
+}
+
+#home img {
+  height: 30px;
+}
+
+
 
 h1 {
   background-color: #1da195;
